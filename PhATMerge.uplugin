@@ -1,0 +1,20 @@
+{
+    "FileVersion" : 1,
+	
+	"FriendlyName" : "Physicals Assets Merge",
+	"Version" : 1,
+	"VersionName" : "0.0.1",
+	"CreatedBy" : "Peter Leontev",
+	"EngineVersion" : "4.22.0",
+	"Description" : "This plugin creates Blueprint-usable function to merge Physical Assets (related to single skeleton) in runtime",
+	"Category" : "Physics",
+	
+    "Modules" :
+	[
+		{
+			"Name" : "PhATMerge",
+			"Type" : "Runtime",
+			"LoadingPhase" : "Default"
+		}
+	]
+}
